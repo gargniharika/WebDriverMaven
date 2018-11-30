@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class LoginTest {
 
 	public static void main(String[] args) throws ParseException {
-		//Test CI changes
+		//Test CI changes after configuring Jenkins-GIT
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\test\\resources\\executables\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://www.facebook.com/login/identify?ctx=recover"); 
